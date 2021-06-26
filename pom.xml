@@ -63,7 +63,9 @@
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                             <artifactSet>
                                 <includes>
+                                    <include>aopalliance:aopalliance</include>
                                     <include>cl.bgmp:command-framework-bukkit</include>
+                                    <include>com.google.inject:guice</include>
                                     <include>javax.inject:javax.inject</include>
                                 </includes>
                             </artifactSet>
