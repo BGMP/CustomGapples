@@ -1,0 +1,5 @@
+name: CustomGapples
+version: ${project.version}
+main: cl.bgmp.customgapples.CustomGapples
+authors: [BGMP]
+description: Custom golden apples

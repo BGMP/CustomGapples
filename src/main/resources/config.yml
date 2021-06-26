@@ -1,0 +1,9 @@
+gapples:
+  apple1:
+    name: "&bCustom Gapple Name!"
+    lore:
+      - "&cCustom Gapple Lore!"
+    effects:
+      - "SPEED:1:30"
+    lightning: true
+    enchanted: true
