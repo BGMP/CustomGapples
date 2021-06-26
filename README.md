@@ -22,3 +22,6 @@ As in any other Maven project, simply clone this repository and run the correspo
   > mvn clean package
 
 The compiled binary can be found in your `target/` directory.
+
+## Download
+Compiled binaries are deployed to my Maven repository: [https://maven.bgmp.cl/cl/bgmp/CustomGapples/](https://maven.bgmp.cl/cl/bgmp/CustomGapples/).

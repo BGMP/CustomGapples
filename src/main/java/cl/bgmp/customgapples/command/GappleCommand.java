@@ -245,9 +245,9 @@ public class GappleCommand {
         case 2:
           if (args[0].toLowerCase().equals("get")) {
             List<String> gappleIds =
-                    this.customGapples.getGapplesManager().getGapples().stream()
-                            .map(Gapple::getId)
-                            .collect(Collectors.toList());
+                this.customGapples.getGapplesManager().getGapples().stream()
+                    .map(Gapple::getId)
+                    .collect(Collectors.toList());
             for (String id : gappleIds) {
               if (id.startsWith(args[1])) completion.add(id);
             }
@@ -264,9 +264,9 @@ public class GappleCommand {
         case 3:
           if (args[0].toLowerCase().equals("give")) {
             List<String> gappleIds =
-                    this.customGapples.getGapplesManager().getGapples().stream()
-                            .map(Gapple::getId)
-                            .collect(Collectors.toList());
+                this.customGapples.getGapplesManager().getGapples().stream()
+                    .map(Gapple::getId)
+                    .collect(Collectors.toList());
             for (String id : gappleIds) {
               if (id.startsWith(args[2])) completion.add(id);
             }
