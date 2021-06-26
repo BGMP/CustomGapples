@@ -1,4 +1,4 @@
-CustomGapples
+CustomGapples [![build](https://github.com/BGMP/CustomGapples/actions/workflows/build.yml/badge.svg)](https://github.com/BGMP/CustomGapples/actions/workflows/build.yml) [![licence](https://gitlicense.com/badge/BGMP/CustomGapples)](https://github.com/BGMP/CustomGapples/blob/master/LICENCE.md)
 ===
 Spigot 1.8 plugin for creating custom golden apples.
 
