@@ -33,7 +33,7 @@ public class GappleCommand {
     this.customGapples = customGapples;
   }
 
-  public static class AppleParentCommand {
+  public static class GappleParentCommand {
     private static final String COMMANDS_MENU_TITLE = " CustomGapples Commands ";
     private static final String COMMANDS_HELP_MENU =
         ChatColor.BLUE.toString()

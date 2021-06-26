@@ -83,7 +83,7 @@ public final class CustomGapples extends JavaPlugin {
         new CommandsManagerRegistration(
             this, this, new GappleCommand.GappleCommandTabCompleter(this), this.commandsManager);
     this.commandsManager.setInjector(new SimpleInjector(this));
-    this.commandRegistry.register(GappleCommand.AppleParentCommand.class);
+    this.commandRegistry.register(GappleCommand.GappleParentCommand.class);
   }
 
   @Override
