@@ -16,7 +16,7 @@ CustomGapples' permissions:
   - `customgapples.command.gapple.list` Allows a player to list all the available custom gapples.
   - `customgapples.command.reload` Reloads all custom gapples from configuration.
   
-## Instalation
+## Installation
 As in any other Maven project, simply clone this repository and run the corresponding packaging command:
 
   > mvn clean package
