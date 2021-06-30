@@ -28,7 +28,7 @@ import org.bukkit.potion.PotionEffect;
 public class GapplesManager implements Listener {
   private CustomGapples customGapples;
   private Set<Gapple> gapples = new HashSet<>();
-  public Cache<UUID, Boolean> invincibilityCache =
+  private Cache<UUID, Boolean> invincibilityCache =
       CacheBuilder.newBuilder().expireAfterWrite(2, TimeUnit.SECONDS).build();
 
   @Inject
