@@ -15,7 +15,37 @@ CustomGapples' permissions:
   - `customgapples.command.gapple.give` Allows a player to use /gapple give.
   - `customgapples.command.gapple.list` Allows a player to list all the available custom gapples.
   - `customgapples.command.reload` Reloads all custom gapples from configuration.
-  
+
+## Configuration
+The plugin generates a [template configuration file](https://github.com/BGMP/CustomGapples/blob/master/src/main/resources/config.yml)
+within its data folder. For the potion effects, you must use Bukkit's `PotionEffectType`. Here is a reference table:
+
+| Potion Name     | PotionEffectType  |
+---               |                 ---
+| Absorption      | ABSORPTION        |
+| Blindness       | BLINDNESS         |
+| Fire Resistance | FIRE_RESISTANCE   |
+| Haste           | FAST_DIGGING      |
+| Health Boost    | HEALTH_BOOST      |
+| Hunger          | HUNGER            |
+| Instant Damage  | HARM              |
+| Invisibility    | INVISIBILITY      |
+| Instant Health  | HEAL              |
+| Jump Boost      | JUMP              |
+| Mining Fatigue  | SLOW_DIGGING      |
+| Nausea          | CONFUSION         |
+| Night Vision    | NIGHT_VISION      |
+| Poison          | POISON            |
+| Regeneration    | REGENERATION      |
+| Resistance      | DAMAGE_RESISTANCE |
+| Saturation      | SATURATION        |
+| Slowness        | SLOW              |
+| Speed           | SPEED             |
+| Strength        | INCREASE_DAMAGE   |
+| Water Breathing | WATER_BREATHING   |
+| Weakness        | WEAKNESS          |
+| Wither          | WITHER            |
+ 
 ## Installation
 As in any other Maven project, simply clone this repository and run the corresponding packaging command:
 
