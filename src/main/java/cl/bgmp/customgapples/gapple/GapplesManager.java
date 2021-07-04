@@ -4,7 +4,6 @@ import cl.bgmp.customgapples.CustomGapples;
 import com.google.common.collect.ImmutableSet;
 import com.google.inject.Inject;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 import org.bukkit.Material;
@@ -56,8 +55,10 @@ public class GapplesManager implements Listener {
 
     Player player = event.getPlayer();
     Gapple gapple = match.get();
-    List<PotionEffect> effects = gapple.getEffects();
-    player.addPotionEffects(effects);
+    for (PotionEffect effect : gapple.getEffects()) {
+      player.addPotionEffect(effect, true);
+    }
+
     if (!gapple.hasLightning()) return;
 
     player.getWorld().strikeLightningEffect(player.getLocation());
